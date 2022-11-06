@@ -201,9 +201,9 @@ h3 {
 .choice-style {
     text-align: center;
     width: fit-content;
-    height: 17%;
+    height: 13%;
     padding: 3px 20px;
-    margin: 2.5px 0px 2.5px 125px;
+    margin: 5px 0px 5px 125px;
     border-radius: 10px;
     background-color: rgb(75, 52, 24);
     color: white;
