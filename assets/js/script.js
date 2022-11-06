@@ -190,7 +190,7 @@ function enableBtns() {
 }
 // sets the timer and displays time on screen
 function startTimer() {
-  timeVal = 60;
+  timeVal = 300;
   timerTxt.textContent = timeVal;
   timer = setInterval(function () {
     timeVal--;
