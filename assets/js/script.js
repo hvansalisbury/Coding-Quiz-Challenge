@@ -54,97 +54,97 @@ liEl.classList.add('list-style');
 // arrays to hold questions, empty array will be a copy of the constant array when starting the quiz each time
 var allProblems = [];
 const allQuestions = [
-  {
-    question: 'question1',
-    choices: {
-      a: true,
-      b: false,
-      c: false,
-      d: false
-    }
-  },
-  {
-    question: 'question2',
-    choices: {
-      e: false,
-      f: true,
-      g: false,
-      h: false
-    }
-  },
-  {
-    question: 'question3',
-    choices: {
-      i: false,
-      j: false,
-      k: true,
-      l: false
-    }
-  },
-  {
-    question: 'question4',
-    choices: {
-      m: false,
-      n: false,
-      o: false,
-      p: true
-    }
-  },
-  {
-    question: 'question5',
-    choices: {
-      q: true,
-      r: false,
-      s: false,
-      t: false
-    }
-  },
-  {
-    question: 'question6',
-    choices: {
-      u: false,
-      v: true,
-      w: false,
-      x: false
-    }
-  },
-  {
-    question: 'question7',
-    choices: {
-      a: false,
-      b: false,
-      c: true,
-      d: false
-    }
-  },
-  {
-    question: 'question8',
-    choices: {
-      2: false,
-      3: false,
-      4: false,
-      5: true
-    }
-  },
-  {
-    question: 'question9',
-    choices: {
-      6: true,
-      7: false,
-      8: false,
-      9: false
-    }
-  },
-  {
-    question: 'question10',
-    choices: {
-      x: false,
-      xx: true,
-      xxx: false,
-      xxxx: false
-    }
-  }
-]
+        {
+            problem: 'The formula for the area of a regular polygon is A = 1/2 * a * P. What does a stand for?',
+            choices: {
+                'area': 'false',
+                'asymptote': 'false',
+                'angles': 'false',
+                'apothem': 'true',
+            },
+        },
+        {
+            problem: 'What mathemaic property is being displayed in the following equation? a * b = 1',
+            choices: {
+                'Distributive Property': 'false',
+                'Multiplicative Inverse': 'true',
+                'Additive Identity': 'false',
+                'Associative Property of Multiplication': 'false',
+            },
+        },
+        {
+            problem: 'What is the volume of a cylinder with a height of 10 feet and a radius of 6 feet?',
+            choices: {
+                '360pi cu ft': 'true',
+                '60pi cu ft': 'false',
+                '600pi cu ft': 'false',
+                '60pi sq ft': 'false',
+            },
+        },
+        {
+            problem: 'What does Algebra mean?',
+            choices: {
+                'Math with letters': 'false',
+                'The extensive study of the last three letters of the alphabet': 'false',
+                'The generalization of the Arithmetic': 'true',
+                'Solving for x, drawing lines, and plotting points': 'false',
+            },
+        },
+        {
+            problem: 'Write the equation of a line in point-slope form that passes through the points (7,-15) and (-5,21).',
+            choices: {
+                'y = -2x +14': 'false',
+                '(y - 15) = -2(x -7)': 'false',
+                'y = -3x + 6z': 'false',
+                '(y - 21) = -3(x + 5)': 'true',
+            },
+        },
+        {
+            problem: 'What angle pair can be found when parallel lines get intersected by a transversal?',
+            choices: {
+                'Right Angles': 'false',
+                'Complementary Angles': 'false',
+                'Alternate Interior Angles': 'true',
+                'Acute Angles': 'false',
+            },
+        },
+        {
+            problem: 'What does x equal? x = 2/5 + 7/8',
+            choices: {
+                '51/40': 'true',
+                '9/13': 'false',
+                '9/40': 'false',
+                '14/13': 'false',
+            },
+        },
+        {
+            problem: 'What is the name of a polyhedron with 20 faces?',
+            choices: {
+                'Tetrahedron': 'false',
+                'Octahedron': 'false',
+                'Dodecahedron': 'false',
+                'Icosahedron': 'true',
+            },
+        },
+        {
+            problem: 'How many different ways can you arrange the letters of the word CRAZY?',
+            choices: {
+                '120': 'true',
+                '25': 'false',
+                '15': 'false',
+                '625': 'false',
+            },
+        },
+        {
+            problem: 'Given a right triangle: short leg = 3ft, long leg = 4ft, hypotenuse = 5ft. What is the sine value of the smallest angle?',
+            choices: {
+                '4/5': 'false',
+                '3/5': 'true',
+                '3/4': 'false',
+                '4/3': 'false',
+            },
+        },
+    ]
 // function to set empty array equal to constant
 function restoreQuestions() {
   allProblems = [allQuestions[0], allQuestions[1], allQuestions[2], allQuestions[3], allQuestions[4], allQuestions[5], allQuestions[6], allQuestions[7], allQuestions[8], allQuestions[9]];
