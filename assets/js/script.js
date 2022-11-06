@@ -326,9 +326,11 @@ function renderScores() {
       liEl.setAttribute('data-index', i);
       ulEl.appendChild(liEl);
     }
+  } else {
     questionEl.textContent = "There are no scores to display"
     cardContent.appendChild(questionEl);
-  } return;
+  }
+  return;
 }
 // clears local storage and scores array, clears screen, saves scores, and displays message
 function resetScores() {
