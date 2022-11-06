@@ -7,8 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
 
 </head>
-
+<!-- the visible content of the page, classes added to help identify different pieces of code -->
 <body>
+    <!-- this is where the heading and start button will be located, split up into two separate containers -->
     <header>
         <div class="header-left">
             <h1 class="heading">Quiz Challenge: Math Edition</h1>
@@ -17,27 +18,32 @@
             <button class="start-button">Start</button>
         </div>
     </header>
+    <!-- all the main parts of the quiz will be here, aside holds data and buttons, big card holds all the questions and where messages will display -->
     <main>
         <aside>
+            <!-- a running timer when doing the quiz -->
             <section class="card-timer">
                 <div class="timer-text"></div>
                 <h4>second(s) left</h4>
             </section>
+            <!-- shows the last score stored in local storage -->
             <section class="display-last-score">
                 <h3>Last Score:</h3>
                 <h3><span class="last-score">0</span></h3>
             </section>
+            <!-- buttons to erase all scores and to see all scores -->
             <section class="scores-buttons">
                 <button class="reset-button">Reset Scores</button>
                 <button class="scores-button">Scores</button>
             </section>
         </aside>
-
+        <!-- main card that holds all quesions, input, messages, and displays scores -->
         <section class="card-questions">
             <div class="card-content"></div>
             <div class="card-bottom"></div>
         </section>
     </main>
+    <!-- basic footer -->
     <footer>
         <divx`>
             <h7>Made with ❤️️ by Howard Van Salisbury</h7>
